@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700);
+
+
+
+/*Slide*/
+.title-slide{
+	font-size: 38px;
+	line-height: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
