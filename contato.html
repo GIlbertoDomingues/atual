@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="GDC Soluções">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Contato - Atual DV</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/carousel.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  </head>
+  <body>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="internas navbar navbar-default navbar-fixed-top">
+      <header class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo-atual-dv-branco.png" height="57" width="216" alt="">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="empresa.html">Empresa</a></li>
+            <li><a href="solucoes.html">Soluções</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li class="active"><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </header>
+    </nav>
+
+    <section class="container wrapper-inner">
+      <h2>ENTRE EM CONTATO COM A ATUALDV</h2>
+    </section>
+
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="container-fixed">
+      <div class="container">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <h4 class="title">Links</h4>
+
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <h4 class="title">Contatos</h4>
+          <address>
+            Rua Lamenha Lins, n° 3236 <br>
+            Parolim - Curitiba-PR<br>
+            Tel: (41) 3020-7550 <br>
+            contato@atualdv.com.br<br>
+          </address>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1801.1230920555379!2d-49.264975749419!3d-25.46345377096038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce494b5b70f35%3A0xd4c500cd00db4fa8!2sR.+Lamenha+Lins%2C+3236+-+Centro%2C+Curitiba+-+PR%2C+80220-081!5e0!3m2!1spt-BR!2sbr!4v1447901628095" width="350" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <h4 class="title">Siga-nos</h4>
+          <div class="fb-page" data-href="https://www.facebook.com/AtualDV-473385172792964" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- AUTOR
+    ================================================== -->
+    <section class="container ">
+      <div class="col-md-12">
+        <span class="author">© 2015 AtualDV. Todos os direitos reservados. <br> 
+        <a href="http://gdcsolucoes.com.br/" target="_black" class="gdcsolucoes">GDC Soluções</a></span>
+        <a class="go-top" href="#top">
+          <img src="assets/img/go-to-up.png" height="43" width="42" alt="">
+        </a>
+      </div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+    <script>
+      //PARALLAX
+      //
+      $(window).scroll(function() {
+        var yPos = -($(window).scrollTop() / 2);
+        var coords = '50% '+ yPos + 'px';
+        $('.parallax-bg').css({ backgroundPosition: coords });
+
+      });
+
+      // SCROLL TOP
+      $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+
+    </script>
+
+
+  </body>
+</html>

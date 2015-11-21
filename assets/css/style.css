@@ -1,6 +1,51 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700);
 
 
+.btn-blue{
+	background-color: #0C2540;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 20px auto 0;
+}
+
+.btn-blue:hover{
+	color: #0C2540 !important;
+	background-color: #fff;
+}
+
+
+
+.btn-blue-iverse{
+	background-color: transparent;
+	color: #0C2540;
+	text-transform: uppercase;
+	border: 2px solid #0C2540;
+}
+
+.btn-blue-iverse:hover{
+	background-color: #0C2540;
+	color: #ffffff !important;
+	text-transform: uppercase;
+	border: 2px solid #ffffff;
+}
+
+/*nav*/
+.internas.navbar.navbar-default{
+	background-color: #0C2540;
+}
+
+.internas.navbar-default .navbar-nav > li > a{
+	color: #fff;
+}
+.internas.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+}
+
+
+.wrapper-inner{
+	margin: 90px 0 50px;
+}
+
 
 /*Slide*/
 .title-slide{
@@ -9,4 +54,168 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
+}
+
+
+/**/
+.wrapper{
+	margin: 60px auto;
+}
+
+.wrap-title{
+	margin-bottom: 30px;
+
+}
+.title-primary{
+	font-size: 40px;
+	color: #0C2540;
+}
+
+.description{
+	font-size: 18px;
+	padding: 0 130px;
+	line-height: 24px;
+}
+
+
+
+/*parallax*/
+
+.parallax {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	background: #f8f8f8;
+	color: #ffffff;
+	z-index:0;
+}
+.parallax .container {
+	display: table;
+	overflow:hidden;
+}
+.parallax .parallax-content, .parallax .overlay{
+	height: 400px;
+}
+.parallax-content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	overflow:hidden;
+	position: relative;
+}
+.overlay {
+	background: url(../img/pattern.png);
+	width: 100%;
+	position: absolute;
+	overflow:hidden;
+}
+.parallax-bg {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	background: url(../img/temps/bg-parallax.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-position: top center;
+}
+.title-parallax{
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 80px;
+}
+
+.description-parallax{
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	padding: 0 80px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+
+.gallery{
+	border: 2px solid #FFF;
+}
+
+.wrap-btn-gallery{
+	text-align: center;
+	width: 100%;;
+	clear: both;
+	float: left;
+	margin: 75px auto;
+}
+
+
+.clients{
+	height: 410px;
+}
+
+
+
+
+
+
+/*footer*/
+footer{
+	background-color: #0C2540;
+	width: 100%;
+	float: left;
+	height: 400px;
+}
+
+footer .title{
+	font-size: 24px;
+	color: #fff;
+	padding-top: 30px;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+.author{
+	padding-top: 50px;
+	display: block;
+	color: #0C2540;
+	font-size: 18px;
+	float: left;
+
+}
+
+.gdcsolucoes{
+	color: #0C2540;
+	line-height: 1.7;
+}
+.gdcsolucoes:before{
+	content: '';
+    background: url(../img/gdcsolucoes.png) repeat scroll 13px 0px rgba(0, 0, 0, 0);
+    float: left;
+    height: 19px;
+    margin: 5px 5px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 13px;
+}
+.gdcsolucoes:hover,
+.gdcsolucoes:hover:before{
+    background-position: 0 0 ;
+    text-decoration: none;
+    cursor: pointer;
+    color: #F1E927;
+}
+
+.go-top{
+	float: right;
+	padding-top: 60px;
+}
+.go-top:hover{
+	opacity: 0.7;
 }
